@@ -1,7 +1,16 @@
 aid: firstjobme
 name: Firstjob.me
-description: Firstjob.me is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FirstJob (firstjob.me) is a Latin American employment platform founded in Chile in 2012 to
+  improve working conditions for young professionals by connecting students and early-career
+  candidates (0-2 years of experience) with entry-level jobs and internships at large employers.
+  The platform lists 1,200+ active opportunities across engineering, administration, operations,
+  and technology, maintains an employer directory, and runs networking events and webinars. It
+  also operates related initiatives including Employers For Youth (EFY) and Best Internship
+  Experiences (BIE) employer-ranking programs. FirstJob is a consumer-facing web platform used by
+  more than 500,000 young professionals; it does not currently publish a public developer API,
+  OpenAPI/Swagger specification, SDKs, or a developer portal. It was surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/firstjobme/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.firstjob.me/asset-web/header_fj.png
 tags:
 - Company
+- Jobs
+- Recruiting
+- Employment
+- Career
+- Internships
+- Human Resources
+- Latin America
+- Chile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/firstjobme-domain-security.yml
 - type: Website
   url: https://firstjob.me
+- type: Blog
+  url: https://blog.firstjob.me/
+- type: SignUp
+  url: https://firstjob.me/usuarios/registro/nueva_cuenta
+- type: Support
+  url: https://firstjob.me/contacto
+- type: TermsOfService
+  url: https://cdn.firstjob.me/terminos-de-uso-y-condiciones.pdf
+- type: PrivacyPolicy
+  url: https://cdn.firstjob.me/politicas-privacidad.pdf
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
